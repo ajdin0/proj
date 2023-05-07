@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="author" content="Ajdin Sirbegovic" />
+  <meta name="copyright" content="Ajdin Sirbegovic" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="dashboard">
+    <div class="menu">
+      <div class="menu1">
+        <span class="dashboardmailer">mailer</span><span class="dashboardboks">boks</span>
+      </div>
+      <div class="menu2">
+        <div class="dashboardmenu"></div>
+
+        </div>
+      <div class="menu3"></div>
+    </div>
+    <div class="desktoppage">
+      <div class="behindmenu"></div>
+      <div class="maindesktop">
+        <div class="landingpage">
+          <span class="landingpagetext">Landing Page & Forms</span>
+          <div class="statistics">
+            <div class="todaystat">
+              <span class="7daystatnum" id="stats">0</span>
+              <span>TODAY</span>
+            </div>
+            <div class="7daystat">
+              <span class="7daystatnum" id="stats">0</span>
+              <span>7 DAYS</span>
+            </div>
+            <div class="30daystat">
+              <span class="7daystatnum" id="stats">0</span>
+              <span>30 DAYS</span>
+            </div>
+            <div class="totalstat">
+              <span class="7daystatnum" id="stats">0</span>
+              <span>TOTAL</span>
+            </div>
+          </div>
+          <div class="dateselect">
+            <div class="dateselectmain">
+              <div class="date">
+                <span class="datespan">February 23, 2023</span>
+              </div>
+              <div class="datemenu">
+                <div class="datemenubar1" id="datemenubar"></div>
+                <div class="datemenubar1" id="datemenubar"></div>
+                <div class="datemenubar1" id="datemenubar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,153 @@
+.dashboard{
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: left;
+}
+.menu{
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  min-width: 150px;
+  display:block
+}
+.menu1{
+  width: 100%;
+  height: 8%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(13px + 0.8vw);
+  cursor: default;
+}
+.dashboardmailer{
+  color: #1026F2;
+  font-weight: bold;
+  padding-left: 15%;
+}
+.dashboardboks{
+  color: white;
+  font-weight: bold;
+}
+.menu2{
+  width: 100%;
+  height: 84%;
+  background-color: black;
+  border-style: solid;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 0;
+  border-left: 0;
+}
+.dashboardmenu{
+
+}
+.menu3{
+  width: 100%;
+  height: 8%;
+  background-color: black;
+}
+
+
+
+.desktoppage{
+  background-color: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.behindmenu{
+  height: 100%;
+  width: 17.647%;
+  min-width: 150px;
+}
+.maindesktop{
+  width: 100%;
+  height: 100%;
+}
+.landingpage{
+  width: 100%;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 3%;
+}
+@media screen and (max-width: 1000px){
+  .landingpage{
+    display: block;
+    min-height: 120px;
+  }
+  .statistics{
+    margin-top: calc(5px + 1.5%);
+  }
+  .dateselect{
+    margin-top: calc(5px + 1.5%);
+  }
+}
+.landingpagetext{
+  width: 25%;
+  align-self: flex-start;
+  font-weight: bold;
+  font-size: calc(14px + 0.7vw);
+}
+.statistics{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 40%;
+  min-width: 300px;
+  font-weight: bold;
+  font-size: calc(10px + 0.4vw);
+}
+#stats{
+  display: block;
+  margin-bottom: 10px;
+  font-size: calc(14px + 0.7vw);
+}
+.dateselect{
+  width: calc(15% + 140px);
+  min-width: 225px;
+  align-self: flex-start;
+  height: 30px;
+}
+.dateselectmain{
+  width: 225px;
+  height: 100%;
+  border: 1px solid #b1bbce;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date{
+  width: 80%;
+  height: 100%;
+  border-right: 1px solid #b1bbce;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 12px;
+}
+.datespan{
+  margin-right: 5px;}
+.datemenu{
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+#datemenubar{
+  display: inline-block;
+  width: 50%;
+  border-top: 1px solid black;
+}
+.datemenubar2{
+  
+}
